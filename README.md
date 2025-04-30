@@ -9,7 +9,7 @@ This project is a mock website for the new University of Houston Sugar Land Stud
 
 ---
 
-## 🔹 Project Overview
+##  Project Overview
 
 The website includes a homepage, FAQ section, and a room booking page. The front-end is fully responsive and interactive, and the back-end handles form submissions using Express on Node.js.
 
@@ -20,7 +20,7 @@ The website includes a homepage, FAQ section, and a room booking page. The front
 - Designed and built a homepage with navigation links.
 - Implemented a collapsible **FAQ section** using JavaScript.
 - Developed a **room booking form** with five rooms and front-end validation.
-- Embedded media on the homepage (UH logo or video).
+- Embedded media on the homepage (UH video).
 - Styled the website using **CSS** for a clean, responsive design.
 
 ---
@@ -36,23 +36,19 @@ The website includes a homepage, FAQ section, and a room booking page. The front
 
 ---
 
-## 🗂 Project Structure
-
-    ├── backend/
-    │   └── bookings.js          # (Optional) backend logic to manage room data
-    ├── public/
-    │   ├── css/
-    │   │   └── styles.css       # Site-wide styling
-    │   └── js/
-    │       └── script.js       # FAQ toggle + form validation
-    ├── views/
-    │   ├── index.html           # Homepage
-    │   ├── faq.html             # FAQ section
-    │   └── booking.html         # Booking form page
-    ├── server.js                # Express server with GET and POST handlers
-    ├── package.json             # Node project file with dependencies
-    ├── package-lock.json        # Dependency lockfile
-    └── README.md                # Project documentation
+## Project Structure
+project-root/
+├── backend/
+│   ├── server.js
+│   ├── bookings.json
+├── frontend/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── script.js
+│   ├── index.html
+│   ├── faq.html
+│   └── booking.html
 
 ---
 

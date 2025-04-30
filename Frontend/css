@@ -53,3 +53,32 @@ nav ul li a {
     border: 1px solid #ccc;
     background-color: #f9f9f9;
 }
+
+
+
+/* Interactive Features */
+a, button {
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  nav a:hover {
+    color: #ffffff;
+    background-color: #b30000;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #a40000;
+    color: white;
+    transform: scale(1.03);
+  }
+  
+  /* Booking form focus and transition */
+  input:focus, select:focus {
+    outline: 2px solid #b30000;
+    background-color: #fff8f8;
+    transition: background-color 0.3s ease;
+  }
+  
